@@ -1,0 +1,19 @@
+alias tf=terraform
+tf init
+tf fmt
+tf validate
+tf plan
+tf plan | grep "will be created"
+tf apply
+tf apply --auto-approve
+tf destroy
+
+
+----git commands----
+git config --global user.name "Sumit Kumar"
+git config --global user.email "your-email@example.com"
+git remote add origin https://github.com/sumitbiswal98/terraform-with-azure-devops.git
+git remote -v
+git add .
+git commit -m "initial commit"
+git push origin main
